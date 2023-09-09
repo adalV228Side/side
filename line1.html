@@ -1,14 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<!-- Coding By CodingNepal - www.codingnepalweb.com -->
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>игра</title>
+    <link rel="stylesheet" href="css/list1.css">
+    <script src="js/word-list.js" defer></script>
+    <script src="js/list1.js" defer></script>
 </head>
 
 <body>
-    тут пусто
+
+    <div class="game-modal">
+        <div class="content">
+            <img src="#" alt="gif">
+            <h4>Игра окончена!</h4>
+            <p>Правильное слово было: <b>радуга</b></p>
+            <button class="play-again">Играть заново</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="hangman-box">
+            <img src="#" draggable="false" alt="hangman-img">
+            <h1>ВИСЕЛИЦА</h1>
+        </div>
+        <div class="game-box">
+            <ul class="word-display"></ul>
+            <h4 class="hint-text">Подсказка: <b></b></h4>
+            <h4 class="guesses-text">Неправильные предположения: <b></b></h4>
+            <div class="keyboard"></div>
+        </div>
+    </div>
 </body>
 
 </html>
